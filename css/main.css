@@ -1,0 +1,45 @@
+html {
+	box-sizing: border-box;
+  background-color: #dbd6d0;
+  font-family: "Bevan", cursive;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav {
+  background-color: #79766f;
+}
+
+h1 {
+  background-color: #79766f;
+  text-align: center;
+  color: #fff;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 1em 1em 1em;
+  background-color: #703839;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 1em;
+  background-color: #733737;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #ff332a;
+  color: #fff;
+}
